@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+/* Add application styles & imports to this file! */
+
+html, body {
+    height: 100%;
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.bounds {
+	height : auto;
+	width: 100%;
+	padding-left: 2%;
+	padding-top: 2%;
+  }
+  
+  .sec1 {
+	background: #4A86E8;
+	color:white;
+  }
+  
+  .sec2 {
+	background: #00FF00;
+	color:blue;
+	
+  }
+  
+  .sec3 {
+	background: #FF0000;
+	color:white;
+  }
+  
+  .sec1, .sec2, .sec3 {
+	text-align:center
+  }
+  
+  .content {
+	min-width: 300px;
+	/*height: 400px;*/
+  }

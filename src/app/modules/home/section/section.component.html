@@ -1,0 +1,14 @@
+<div class="bounds" fxFill>
+  <div class="content" [fxLayout]="orientation" fxFlexFill>
+    <div
+      *ngFor="let section of sectionsToRender; index as i"
+      [class]="section.className"
+      [fxFlexOrder]="section.pcOrder"
+      [fxFlexOrder.xs]="section.phoneOrder"
+      fxFill
+      fxFlex
+    >
+      {{ section.content }}
+    </div>
+  </div>
+</div>
